@@ -76,9 +76,8 @@ All plugins are installed using `lazy.nvim`, a fast and efficient plugin manager
 
 Each plugin provides its functionality immediately after installation and configuration. 
 
-It is arranged in a way that there is the `lua/plugins` folder that holds the instalation of each plugin, and the `lua/pluginconfig` folder, that is where the configuration for each particular plugin is held, if needed.
-
-For example `lua/plugins/telescope.lua` would install the fuzzy finder plugin and `lua/pluginconfig/telescope.lua` would have all the configuration for the plugin.
+It is arranged in a way that there is the `lua/plugins` folder that holds the instalation and configuration of each plugin.
+The plugins are automatically installed when the file is created properly.
 
 For detailed usage instructions, refer to each plugin’s documentation.
 

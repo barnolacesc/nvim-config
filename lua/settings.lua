@@ -14,3 +14,4 @@ vim.opt.wrap = false
 
 vim.opt.swapfile = false
 
+vim.o.shada = ""
