@@ -14,6 +14,10 @@ return {
       null_ls.builtins.formatting.black.with({
         filetypes = { "python" }, -- Only for Python files
       }),
+      -- markdown formatter
+      null_ls.builtins.formatting.prettier.with({
+        filetypes = { "markdown" }, -- Only for md files
+      }),
       -- Web-related formatters
       null_ls.builtins.formatting.prettier.with({
         filetypes = { "html", "css", "javascript", "json" },
